@@ -1,0 +1,4 @@
+.vscode/
+.vscode/settings.json
+client/.vscode/extensions.json
+client/.vscode/tasks.json
