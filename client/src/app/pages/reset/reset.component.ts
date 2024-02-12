@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './reset.component.html',
-  styleUrl: './reset.component.scss'
+  styleUrl: './reset.component.scss',
 })
-export class ResetComponent {
-
-}
+export default class ResetComponent {}
