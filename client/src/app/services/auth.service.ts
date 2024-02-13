@@ -8,6 +8,7 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class AuthService {
   http = inject(HttpClient);
+
   isLoggedIn$ = new BehaviorSubject<boolean>(false);
 
   registerService(registerObj: any) {
@@ -35,6 +36,6 @@ export class AuthService {
   }
 
   isLoggedIn() {
-    return !!localStorage.getItem('user_Id');
+    return !!localStorage.getItem('user_id');
   }
 }
